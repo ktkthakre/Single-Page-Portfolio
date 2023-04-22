@@ -1,11 +1,22 @@
+/* Comment */
+
 :root
 {
+    /* declaring colors */
     --bgbody: hsl(0, 0%, 8%);
     --bgcontact: #242424;
     --accent: hsl(153, 71%, 59%);
     --text1: #ffffff;
     --text2: hsl(0, 0%, 85%);
     --invalid: hsl(7, 100%, 68%);
+    /* declaring font sizes */
+    --fs-88: 88px;
+    --fs-72: 72px;
+    --fs-40: 40px;
+    --fs-48: 48px;
+    --fs-32: 32px;
+    --fs-24: 24px;
+    --fs-18: 18px;
 }
 
 html
@@ -14,6 +25,7 @@ html
     font-size: 100%;
 }
 
+/* declaring global parameters */
 body
 {
     margin: 0;
@@ -22,4 +34,10 @@ body
     color: var(--text1);
     font-size: 18px;
     line-height: 28px;
+}
+
+/* Rounded corners is my own addition */
+.rounded-corners
+{
+    border-radius: 15px;
 }

@@ -1,7 +1,6 @@
 /* Comment */
 
-:root
-{
+:root {
     /* declaring colors */
     --bgbody: hsl(0, 0%, 8%);
     --bgcontact: #242424;
@@ -19,15 +18,13 @@
     --fs-18: 18px;
 }
 
-html
-{
+html {
     box-sizing: border-box;
     font-size: 100%;
 }
 
 /* declaring global parameters */
-body
-{
+body {
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
     background-color: var(--bgbody);
@@ -37,7 +34,6 @@ body
 }
 
 /* Rounded corners is my own addition */
-.rounded-corners
-{
+.rounded-corners {
     border-radius: 15px;
 }
